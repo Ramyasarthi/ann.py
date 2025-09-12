@@ -1,7 +1,7 @@
 import os
 
 def analyze_bus_log(bus_no):
-    # 🔹 Build log file path based on bus number
+    #  Build log file path based on bus number
     log_path = fr"C:\Users\User\Downloads\{bus_no}.log"
 
     if not os.path.exists(log_path):
